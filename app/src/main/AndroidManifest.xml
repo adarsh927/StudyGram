@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ancreators.studygram">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudyGram">
+        <activity android:name=".PDFOpenerma" />
+        <activity android:name=".Marathi" />
+        <activity android:name=".PDFOpenerhb" />
+        <activity android:name=".HindiB" />
+        <activity android:name=".PDFOpenerha" />
+        <activity android:name=".HindiA" />
+        <activity android:name=".HindiMain" />
+        <activity android:name=".PDFOpeners" />
+        <activity android:name=".Sanskrit" />
+        <activity android:name=".PDFOpernere" />
+        <activity android:name=".English" />
+        <activity android:name=".PDFOpenerss" />
+        <activity android:name=".Social" />
+        <activity android:name=".PDFOpenerm" />
+        <activity android:name=".Maths" />
+        <activity android:name=".PDFOpener" />
+        <activity android:name=".Science" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
